@@ -111,10 +111,13 @@ def main():
                 print("Invalid task number.")
 
         elif choice == "5":
-            print("Exiting the program.")
+            print("Exiting the program.")           #Option to exit the program
 
         else:
             print("Invalid choice. Please enter a valid option.")
+
+        break
+    
 
 if __name__ == "__main__":
     main()
