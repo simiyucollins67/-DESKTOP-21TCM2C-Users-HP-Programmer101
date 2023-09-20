@@ -13,8 +13,9 @@ import datetime         # Importing the required modules
 
 class Task:
     def __init__(self, title, description, due_date, priority):   # Defining a Task class with attributes: title, description, due date, priority, and status.
+        
         self.title = title
-        self.title = title
+        self.title = title  
         self.description = description
         self.due_date = due_date
         self.priority = priority
@@ -23,6 +24,9 @@ class Task:
 class TaskManager():            #Creating task manager class to add tasks, update tasks, view tasks, delete tasks and exit program
     def __init__(self):
         self.tasks = []         # Initializing an empty list to store tasks.
+        #Task.__init__(self, title,description, due_date, priority)
+
+        
 
     def add_task(self, task):
         self.tasks.append(task)  #Add task
@@ -33,6 +37,8 @@ class TaskManager():            #Creating task manager class to add tasks, updat
         task.description = new_description
         task.due_date = new_due_date
         task.priority = new_priority
+        
+
 
     def delete_task(self, task_idx):            #delete tasks using task id
         del self.tasks[task_idx]
@@ -103,6 +109,7 @@ def main():
         elif choice == "4":
             task_manager.view_tasks()
             task_idx = int(input("Enter task number to delete: "))   #Deleting tasks using task id
+            print(task_idx)
 
             if 0 <= task_idx < len(task_manager.tasks):
                 task_manager.delete_task(task_idx)
