@@ -1,4 +1,18 @@
-* {
-    background-color: antiquewhite;
-    margin: 1080px;
+h1 {
+  background-color: antiquewhite;
+  margin: 5px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 400;
+}
+p {
+  background-color: whitesmoke;
+  margin: 5px;
+  text-align: justify;
+  font-size: large;
+  font-weight: 200;
+}
+img {
+  align-self: auto;
+  align-items: center;
 }

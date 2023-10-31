@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px;
+  background: pink;
+  font-weight: 400px;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+}
+body {
+  margin-top: 0%;
+  font-size: 20px;
+  background-color: paleturquoise;
+  margin: 0;
+  padding: 30px;
+  font-weight: 50;
+  align-items: center;
+  text-decoration: solid;
+}
+body {
+  color: #000;
+}
+button {
+  color: green;
+}
